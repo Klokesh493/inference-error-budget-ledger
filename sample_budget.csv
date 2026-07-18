@@ -1,0 +1,3 @@
+endpoint,requests,failures,error_budget_pct
+/rank,100000,60,0.1
+/classify,50000,40,0.05
