@@ -4,11 +4,14 @@ Calculates consumed inference error budget from request and failure counts.
 
 ```mermaid
 flowchart LR
-    N0["sample_budget.csv"]
-    N1["budget_ledger.py"]
-    N2["consumed / status"]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Request and failure totals"]
+    B["Divide failures by allowed failures"]
+    C["Compare consumption to 0.75 and 1"]
+    D["Watch or exhausted"]
+    E["OK below 0.75"]
+    A --> B --> C
+    C --> D
+    C --> E
 ```
 
 ## Operational boundaries
