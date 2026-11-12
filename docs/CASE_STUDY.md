@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Calculates consumed inference error budget from request and failure counts.
+Inference error counts have different consequences at different request volumes. Teams need to compare failures against the allowed budget.
 
 ## Reproduce the workflow
 
