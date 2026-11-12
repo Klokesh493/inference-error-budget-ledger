@@ -1,0 +1,2 @@
+/rank ok 0.6
+/classify exhausted 1.6

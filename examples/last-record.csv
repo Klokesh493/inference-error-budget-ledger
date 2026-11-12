@@ -1,0 +1,2 @@
+endpoint,requests,failures,error_budget_pct
+/classify,50000,40,0.05
